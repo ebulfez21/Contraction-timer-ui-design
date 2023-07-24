@@ -1,0 +1,130 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 444px;
+height: 749px;
+flex-shrink: 0;
+border-radius: 24px;
+background: #FFF;
+box-shadow: 0px 24px 27px 0px rgba(105, 113, 186, 0.16);
+margin-top: 171px;
+}
+.shadow-box{
+  position: absolute;
+margin: 94px  -70px -108px 188px ;
+  width: 326px;
+height: 763px;
+flex-shrink: 0;
+border-radius: 43px;
+background:  #171A3C;
+z-index: -1;
+}
+.title{
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 60px 36px 41px 36px  ;
+}
+
+.hour-body{
+  display: flex;
+  align-items:center ;
+  justify-content:center;
+  flex-direction: row;
+}
+.hour{
+  width: 215px;
+  height: 81px;
+}
+.hour span{
+  color: #171A3C;
+text-align: center;
+font-size: 54px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.message-container {
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 7px;
+}
+.time-description{
+  color:  #171A3C;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.time-value{
+  color:  #171A3C;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.btn{
+  display: flex;
+padding: 24px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 41px;
+background:  #171A3C;
+width: 160px;
+height: 72px;
+margin-bottom: 74px;
+  
+}
+.btn a{
+  color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.timer-entry{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  width: 414px;
+  height:51px;
+  margin: 0 15px;
+  border-radius: 8px;
+  flex-shrink: 0;
+
+}
+.timer-entry p{
+  color:  #171A3C;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.timer-log{
+  
+align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+.timer-log :nth-child(1){
+  width: 55px;
+  height: 24px;
+  margin: 0 49px 8px 36px ;
+  }
+  .timer-log :nth-child(2){
+    width: 89px;
+    height: 24px;
+    margin: 0 49px 8px 0px ;
+  }
+  .timer-log :nth-child(3){
+    width: 131px;
+    height: 24px;
+    margin: 0 35px 8px 0px ;
+  }
